@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Climate Solutions</title>
+<link href="/main.css" rel="stylesheet" />
+
+</head>
+
+<body class="bg-base-100 text-base-content">
+
+  <div class="navbar bg-base-200 px-8">
+    <div class="flex-1">
+      <a class="btn btn-ghost text-xl" href="/">Climate Solutions</a>
+    </div>
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1">
+        <li><a href="/about">About</a></li>
+        <li>
+          <details>
+            <summary>Sector</summary>
+            <ul class="p-2 bg-base-100 rounded-t-none">
+              <li><a href="/solutions/projects?sector=Electricity">Electricity</a></li>
+              <li><a href="/solutions/projects?sector=Industry">Industry</a></li>
+              <li><a href="/solutions/projects?sector=Transport">Transport</a></li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="hero min-h-[40vh] bg-primary text-primary-content">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-5xl font-bold">Explore Climate Solutions</h1>
+        <p class="py-6">Learn about impactful projects that fight climate change.</p>
+        <a class="btn btn-secondary" href="/solutions/projects">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-6 p-10 container mx-auto">
+    <div class="card bg-base-100 shadow-xl">
+      <figure><img src="https://via.placeholder.com/300x180" alt="Project Image" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Project 1</h2>
+        <p>This is a short summary of Project 1.</p>
+        <div class="card-actions justify-end">
+          <a href="/solutions/projects/1" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="card bg-base-100 shadow-xl">
+      <figure><img src="https://via.placeholder.com/300x180" alt="Project Image" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Project 2</h2>
+        <p>This is a short summary of Project 2.</p>
+        <div class="card-actions justify-end">
+          <a href="/solutions/projects/2" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="card bg-base-100 shadow-xl">
+      <figure><img src="https://via.placeholder.com/300x180" alt="Project Image" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Project 3</h2>
+        <p>This is a short summary of Project 3.</p>
+        <div class="card-actions justify-end">
+          <a href="/solutions/projects/3" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

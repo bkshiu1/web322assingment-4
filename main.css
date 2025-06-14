@@ -1,0 +1,49 @@
+/*! tailwindcss v4.1.10 | MIT License | https://tailwindcss.com */
+.container {
+  width: 100%;
+}
+.mx-auto {
+  margin-inline: auto;
+}
+.grid {
+  display: grid;
+}
+.min-h-\[40vh\] {
+  min-height: 40vh;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-none {
+  flex: none;
+}
+.grow {
+  flex-grow: 1;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.items-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.rounded-t-none {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.text-center {
+  text-align: center;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.transition {
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
+  transition-timing-function: var(--tw-ease, ease);
+  transition-duration: var(--tw-duration, 0s);
+}
