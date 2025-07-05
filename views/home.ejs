@@ -8,26 +8,7 @@
 
 <body class="bg-base-100 text-base-content">
 
-  <div class="navbar bg-base-200 px-8">
-    <div class="flex-1">
-      <a class="btn btn-ghost text-xl" href="/">Climate Solutions</a>
-    </div>
-    <div class="flex-none">
-      <ul class="menu menu-horizontal px-1">
-        <li><a href="/about">About</a></li>
-        <li>
-          <details>
-            <summary>Sector</summary>
-            <ul class="p-2 bg-base-100 rounded-t-none">
-              <li><a href="/solutions/projects?sector=Electricity">Electricity</a></li>
-              <li><a href="/solutions/projects?sector=Industry">Industry</a></li>
-              <li><a href="/solutions/projects?sector=Transport">Transport</a></li>
-            </ul>
-          </details>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <%- include('partials/navbar', { page: '/' }) %>
 
   <section class="hero min-h-[40vh] bg-primary text-primary-content">
     <div class="hero-content text-center">
@@ -62,8 +43,6 @@
         </div>
       </div>
     </div>
-
-
     <div class="card bg-base-100 shadow-xl">
       <figure><img src="https://images.pexels.com/photos/4215110/pexels-photo-4215110.jpeg" alt="Electric Transport Project" /></figure>
       <div class="card-body">
